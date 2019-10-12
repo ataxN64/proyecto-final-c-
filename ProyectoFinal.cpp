@@ -11,14 +11,15 @@ void IngresoEstudiante();
 void IngresoCatedratico();
 void IngresoCursos();
 
-void main()
-{
+void main(){
+
 	menuPrincipal();
 	getch();
 }
 
-void menuPrincipal()
-{
+
+void menuPrincipal(){
+
 	clrscr();
 	cout<<"MENU PRINCIPAL\n";
 	cout<<"1. Ingreso \n";
@@ -37,11 +38,11 @@ void menuPrincipal()
 		break;  
 
 	}
-
 }
 
-void menuIngreso()
-{
+
+void menuIngreso(){
+
 	clrscr();
 	int op1, op2;
 
@@ -73,16 +74,14 @@ void menuIngreso()
 
 
 	}
-
-
-
-
 }
 
+
 //ingreso de estudiantes 
-void IngresoEstudiante()
-{
-	char PrimerNombre[30], SegundoNombre[30], PrimerApellido[30], SegundoApellido[30];
+void IngresoEstudiante(){
+
+
+   char PrimerNombre[30], SegundoNombre[30], PrimerApellido[30], SegundoApellido[30];
 
    cout<<"Primer Nombre: ";
    gets(PrimerNombre)  ;
@@ -98,7 +97,7 @@ void IngresoEstudiante()
 
 }
 
-
+//Ingreso de datos catedratico
 void IngresoCatedratico(){
 	char PrimerNombre[30], SegundoNombre[30], PrimerApellido[30], SegundoApellido[30];
 
@@ -115,6 +114,8 @@ void IngresoCatedratico(){
 	gets(SegundoApellido); 
 }
 
+
+//Ingreso de datos Cursos
 void IngresoCursos(){
 	char PrimerCurso[50], SegundoCurso[50], TercerCurso[50], CuartoCurso[50], QuintoCurso[50];
 
