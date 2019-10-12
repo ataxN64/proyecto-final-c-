@@ -9,6 +9,7 @@ void menuPrincipal();
 void menuIngreso();
 void IngresoEstudiante();
 void IngresoCatedratico();
+void IngresoCursos();
 
 void main()
 {
@@ -62,7 +63,11 @@ void menuIngreso()
       		IngresoCatedratico();
       	break;
 
-		case 3:
+      	case 3: 
+      		IngresoCursos();
+      	break;
+
+		case 4:
 			menuPrincipal();
 		break;
 
@@ -108,4 +113,24 @@ void IngresoCatedratico(){
 
 	cout<<"Segundo Apellido :";
 	gets(SegundoApellido); 
+}
+
+void IngresoCursos(){
+	char PrimerCurso[50], SegundoCurso[50], TercerCurso[50], CuartoCurso[50], QuintoCurso[50];
+
+	cout<<"Ingrese el Primer Curso : ";
+	gets(PrimerCurso);
+
+	cout<<"Ingrese el Segundo Curso : ";
+	gets(PrimerCurso);
+
+	cout<<"Ingrese el Tercer Curso : ";
+	gets(PrimerCurso);
+
+	cout<<"Ingrese el Cuarto Curso : ";
+	gets(PrimerCurso);
+
+	cout<<"Ingrese el Quinto Curso : ";
+	gets(PrimerCurso);
+
 }
