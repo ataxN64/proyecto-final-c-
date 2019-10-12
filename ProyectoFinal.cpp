@@ -58,10 +58,10 @@ void menuIngreso()
       		IngresoEstudiante();
       	break;
 
-      	/*case 2;
+      	case 2:
       		IngresoCatedratico();
       	break;
-*/
+
 		case 3:
 			menuPrincipal();
 		break;
