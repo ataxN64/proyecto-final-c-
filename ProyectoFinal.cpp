@@ -185,5 +185,3 @@ int main() {
 
 */
 
-
-https://www.lawebdelprogramador.com/foros/C-Visual-C/1274063-Programa-en-C-C-para-base-de-datos.html
